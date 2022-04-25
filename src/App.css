@@ -1,0 +1,42 @@
+.App{
+  background-color: blueviolet;
+}
+.paper {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  background-image: linear-gradient(steelblue, skyblue);
+  padding-top: 30px;
+  text-align: center;
+  color: white !important;
+  box-shadow: 2px 2px 12px 2px white !important;
+  margin-top: 11%;
+}
+.card{
+  background-color: transparent !important;
+}
+.cardWrapper{
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
+.cards{
+  padding: 20px;
+  background-color: rgba(158, 173, 221, 0.308);
+  margin: 5px;
+}
+
+.text{
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  font-size: 25px;
+}
+.weather-temp,.weather-feel{
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(3, 12, 112);
+}
+.font{
+  font-size: 23px;
+}
